@@ -48,7 +48,7 @@ void setup() {
   beginShape();
   for (int i = 0; i < N_points; i++) {
     float t = (float) i / N_points;
-    PVector p = example3(t); // p represents the (x, y) coordinate of our function at moment t
+    PVector p = example1(t); // p represents the (x, y) coordinate of our function at moment t
     p.mult(scale);
     p.add(centre);
     vertex(p.x, p.y);
